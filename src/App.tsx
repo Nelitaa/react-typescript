@@ -3,6 +3,7 @@ import { User } from './components/User';
 
 import { TimerFather } from './components/TimerFather';
 import { CounterRed } from './components/CounterRed';
+import { Form } from './components/Form';
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
       <hr/>
 
       <CounterRed />
+
+      <h2>Custom Hooks</h2>
+      <hr/>
+
+      <Form />
     </>
   );
 }
