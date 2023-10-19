@@ -2,6 +2,7 @@ import { Counter } from './components/Counter';
 import { User } from './components/User';
 
 import { TimerFather } from './components/TimerFather';
+import { CounterRed } from './components/CounterRed';
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
       <hr/>
 
       <TimerFather />
+
+      <h2>useReducer</h2>
+      <hr/>
+
+      <CounterRed />
     </>
   );
 }
